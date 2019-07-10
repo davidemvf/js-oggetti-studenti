@@ -7,7 +7,8 @@ var davide = {
 }
 
 for (var key in davide) {
-  document.writeln(davide[key]);
+  // document.writeln(davide[key]);
+  console.log(davide[key]);
 }
 
 // Creare un array di oggetti di studenti. Ciclare su tutti gli studenti e stampare per ognuno nome e cognome
@@ -27,7 +28,7 @@ var federico = {
 var classe = [davide, antonio, federico];
 
 
-console.log(classe);
+
 
 for (var i = 0; i < classe.length; i++) {
   document.writeln(classe[i].nome);
